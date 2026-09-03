@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.2.0
+
+### 新增
+
+- 补齐 `frontend-engineer-agent`、`frontend-spec-agent` 的角色定义正文，六个子智能体定义全部可用
+- 补充测试用例，覆盖全部 `agent/*.md` 的 frontmatter 完整性与正文非空校验
+
 ## 0.1.0
 
 ### 新增

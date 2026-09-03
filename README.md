@@ -26,9 +26,11 @@ cp funagent/agent/product-prd-agent.md your-project/.claude/agents/
 | `agent/product-prd-agent.md` | 产品需求文档专家 |
 | `agent/tech-design-agent.md` | 技术设计专家 |
 | `agent/backend-engineer-agent.md` | 后端工程师专家 |
-| `agent/frontend-engineer-agent.md` | 前端工程师专家（内容待补充） |
-| `agent/frontend-spec-agent.md` | 前端规格专家（内容待补充） |
+| `agent/frontend-engineer-agent.md` | 前端工程师专家 |
+| `agent/frontend-spec-agent.md` | 前端规格专家 |
 | `agent/project-owner-agent.md` | 项目 Owner 编排专家 |
+
+---
 
 ## 关于 farfarfun
 
