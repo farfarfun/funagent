@@ -13,10 +13,12 @@ cp funagent/agent/product-prd-agent.md your-project/.claude/agents/
 
 ## 最小示例
 
-以 `product-prd-agent` 为例，在支持 subagent 的工具里按名字调用：
+以 `product-prd-agent` 为例，在支持 subagent 的工具里按名字调用。将下面的请求发送给智能体后，预期会得到一份可保存为 `docs/prd/weekly-meal-planner.md` 的 PRD：
 
 ```
-> 使用 product-prd-agent，把下面的业务需求整理成 PRD：...
+使用 product-prd-agent，把下面的业务需求整理成 PRD，并将结果写入 docs/prd/weekly-meal-planner.md：
+
+我们要做一个家庭每周备餐工具。用户可以输入家庭人数、饮食禁忌和预算，工具生成周一到周日的晚餐计划、采购清单和预计花费。用户可以替换某一道菜，替换后采购清单和预算需要同步更新。首版只支持中文和人民币，不需要账号系统。
 ```
 
 ## 目录说明
