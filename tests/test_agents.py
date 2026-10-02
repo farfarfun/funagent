@@ -35,5 +35,5 @@ def test_agent_has_body_after_frontmatter(path: Path) -> None:
     content = path.read_text(encoding="utf-8")
     match = FRONTMATTER_RE.match(content)
     assert match, f"{path.name} 缺少 frontmatter，无法校验正文"
-    body = content[match.end():]
+    body = content[match.end() :]
     assert body.strip(), f"{path.name} frontmatter 之后没有角色说明正文"
