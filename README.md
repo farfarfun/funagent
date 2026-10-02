@@ -11,6 +11,12 @@ git clone https://github.com/farfarfun/funagent.git
 cp funagent/agent/product-prd-agent.md your-project/.claude/agents/
 ```
 
+## 测试
+
+```bash
+uv run pytest
+```
+
 ## 最小示例
 
 以 `product-prd-agent` 为例，在支持 subagent 的工具里按名字调用。将下面的请求发送给智能体后，预期会得到一份可保存为 `docs/prd/weekly-meal-planner.md` 的 PRD：
