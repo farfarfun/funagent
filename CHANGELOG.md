@@ -4,7 +4,7 @@
 
 ### 变更
 
-- 新增 `pyproject.toml` 与 `uv.lock`，测试与 lint 依赖（pytest、ruff）改由 uv 统一管理，验证命令统一为 `uv run pytest`
+- 新增 `pyproject.toml`，测试与 lint 依赖（pytest、ruff）改由 uv 统一管理，验证命令统一为 `uv run pytest`；`uv.lock` 仅作本地生成文件并忽略
 - `.gitignore` 补齐压缩包产物 `*.rar` 忽略规则
 
 ## 0.2.0
